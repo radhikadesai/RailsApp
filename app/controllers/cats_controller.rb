@@ -5,4 +5,6 @@ class CatsController < ApplicationController
 	def index
 		@cats = p Cat.all
 	end
+	def new
+	end
 end
